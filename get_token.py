@@ -3,8 +3,8 @@ import requests  # To issue HTTP requests to API.
 import request  # To request tokens.
 
 # Fill in your own API keys obtained from https://developer.twitter.com/
-consumer_key = 'Ou5NO2e7b8qnFkhzcFz771lcc'
-consumer_secret = 'CPqhZOcYdhhnZX1bh8ek1LNbv6q8GDqCkJQE4xqPQFniT5GBdy'
+consumer_key = ''
+consumer_secret = ''
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
 # This will create a url in which you will authorize your app for the account you're signed in.
