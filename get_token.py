@@ -1,6 +1,5 @@
 import tweepy  # For Twitter API calls.
-import requests  # To issue HTTP requests to API.
-import request  # To request tokens.
+import request  #  # To issue HTTP requests to API.
 
 # Fill in your own API keys obtained from https://developer.twitter.com/
 consumer_key = ''
