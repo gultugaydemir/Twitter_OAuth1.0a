@@ -9,7 +9,7 @@ A script that grants your Twitter app read and write access to a Twitter account
 ## Prequisites
 - You should have an approved Twitter developers account and provide your own API keys.
 
-- `Tweepy` and `Requests` libraries' installation is necessary.
+- `Tweepy` and `Request` libraries' installation is necessary.
 
 ## Usage
 - Run `get_token.py` first. It will generate the `authorization_url` for your application.
