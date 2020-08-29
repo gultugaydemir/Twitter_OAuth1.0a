@@ -1,5 +1,5 @@
 import tweepy  # For Twitter API calls.
-import request  #  # To issue HTTP requests to API.
+from get import GET  # To issue HTTP requests to API.
 
 # Fill in your own API keys obtained from https://developer.twitter.com/
 consumer_key = ''
@@ -17,7 +17,7 @@ except tweepy.TweepError:
 session = {'request_token': auth.request_token}
 
 # Enter the pin here as input. This will be used as verifier in order to access token.
-verifier = request.GET.get('oauth_verifier')
+verifier = GET.get('oauth_verifier')
 print(redirect_url)
 verifier = input('Verifier: ')
 
