@@ -6,7 +6,7 @@ A script that grants your Twitter app read and write access to a Twitter account
 - This implementation is designed to authorize a Twitter application with OAuth1.0a. With this script, you will be able to get read and write access to another account and control all your Twitter bots from your main developer account. You are welcomed to fill your own keys in and use the code accordingly.
 - Remember that this script only includes the OAuth1.0a implementation. It will be useful to you only if you want to use your Twitter app from a profile other than your Twitter developer account, since I wrote the script assuming that owner of both accounts is the same person. For further information about other implementations please visit [Twitter Developer](https://developer.twitter.com/en/docs/ "Twitter Developer Documentations").
 
-## Prequisites
+## Prerequisites
 - You should have an approved Twitter developers account and provide your own API keys for your application.
 
 - `Tweepy` and `Request` libraries' installation is necessary.
